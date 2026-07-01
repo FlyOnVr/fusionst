@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fusion Studios — an upcoming VR game</title>
+    <meta name="description" content="Fusion Studios is an independent studio building a physics-driven VR combat game. Follow development and get notified at launch.">
+    <meta property="og:title" content="Fusion Studios">
+    <meta property="og:description" content="An independent studio building a physics-driven VR combat game.">
+    <meta property="og:image" content="images/og-image.jpg">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" alt="Fusion Studios logo" class="logo-mark">
+            Fusion Studios
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#about">Studio</a></li>
+            <li><a href="#game">The Game</a></li>
+            <li><a href="#screenshots">Media</a></li>
+            <li><a href="#roadmap">Progress</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-core" aria-hidden="true"></div>
+
+        <div class="hero-content">
+            <span class="eyebrow">Indie VR Studio</span>
+
+            <h1>
+                Fusion Studios
+            </h1>
+
+            <p>
+                Fusion Studios is an indie VR studio, the game is in early development and testing will be advertised on our TikTok and Discord.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#game" class="btn-primary">See the game</a>
+                <a href="#contact" class="btn-secondary">Get updates</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="section" id="about">
+        <div class="section-head">
+            <span class="eyebrow">Studio</span>
+            <h2>indie dev, physical focus</h2>
+            <p>
+                this is a small independent studio with one goal: make VR combat feels best while shipping an actual good game.
+            </p>
+        </div>
+
+        <div class="pillars">
+            <div class="pillar">
+                <span class="eyebrow">Approach</span>
+                <h3>Simulation first</h3>
+                <p>Enemies, weapons, and environments are driven by real physical forces, not pre-baked reactions.</p>
+            </div>
+            <div class="pillar">
+                <span class="eyebrow">Focus</span>
+                <h3>Weight &amp; feedback</h3>
+                <p>Every hit, grab, and recoil is tuned to feel like it's actually happening to something solid.</p>
+            </div>
+            <div class="pillar">
+                <span class="eyebrow">Scope</span>
+                <h3>Built for VR</h3>
+                <p>Designed around room-scale movement and two hands — not adapted from a flat-screen game.</p>
+            </div>
+            <div class="pillar">
+                <span class="eyebrow">Stage</span>
+                <h3>Early development</h3>
+                <p>New features are being built and tested now. Media on this page will update as they come online.</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="divider">
+
+    <section class="section" id="game">
+        <div class="game-panel">
+            <div class="game-copy">
+                <span class="status-pill">In active development</span>
+                <h2>An untitled VR combat game</h2>
+                <p>
+                    Our first title puts you against physically simulated opponents that stagger, block, and recover based on how you actually hit them — not a canned animation. Every weapon has real mass and momentum, and every enemy is built as a ragdoll first, a character second.
+                </p>
+
+                <ul class="feature-list">
+                    <li>Full-body physics-based melee and ranged combat</li>
+                    <li>Enemies that react to where and how hard you hit them</li>
+                    <li>Hands-on interaction with weapons, props, and the environment</li>
+                    <li>Built for multiplayer from the ground up</li>
+                </ul>
+            </div>
+
+            <div class="game-visual">
+                <img src="images/screenshot-1.jpg" alt="Placeholder image — in-game screenshot coming soon">
+                <span class="tag">Placeholder — footage coming soon</span>
+            </div>
+        </div>
+    </section>
+
+    <hr class="divider">
+
+    <section class="section" id="screenshots">
+        <div class="section-head">
+            <span class="eyebrow">Media</span>
+            <h2>Screenshots</h2>
+            <p>Placeholder slots for now — these will be swapped for real in-engine captures as the game develops.</p>
+        </div>
+
+        <div class="gallery">
+            <figure>
+                <img src="images/screenshot-1.jpg" alt="Placeholder screenshot 1">
+                <figcaption>001 — combat</figcaption>
+            </figure>
+            <figure>
+                <img src="images/screenshot-2.jpg" alt="Placeholder screenshot 2">
+                <figcaption>002 — environment</figcaption>
+            </figure>
+            <figure>
+                <img src="images/screenshot-3.jpg" alt="Placeholder screenshot 3">
+                <figcaption>003 — weapons</figcaption>
+            </figure>
+            <figure>
+                <img src="images/screenshot-4.jpg" alt="Placeholder screenshot 4">
+                <figcaption>004 — multiplayer</figcaption>
+            </figure>
+        </div>
+
+        <p class="gallery-note">
+            To swap these later, replace the files in <code>/images/</code> — <code>screenshot-1.jpg</code> through <code>screenshot-4.jpg</code> — keeping the same filenames, or update the <code>src</code> paths in <code>index.html</code>.
+        </p>
+    </section>
+
+    <hr class="divider">
+
+    <section class="section" id="roadmap">
+        <div class="section-head">
+            <span class="eyebrow">Game Progress</span>
+            <h2>Where things stand</h2>
+        </div>
+
+        <div class="roadmap">
+            <div class="roadmap-item">
+                <span class="phase">Phase 01</span>
+                <div>
+                    <h4>Physics interactions and playability</h4>
+                    <p>Physics-based combat, hand interaction, and enemy reaction systems — in progress now.</p>
+                </div>
+            </div>
+            <div class="roadmap-item">
+                <span class="phase">Phase 02</span>
+                <div>
+                    <h4>Multiplayer &amp; networking</h4>
+                    <p>Getting players into the same physically simulated space together.</p>
+                </div>
+            </div>
+            <div class="roadmap-item">
+                <span class="phase">Phase 03</span>
+                <div>
+                    <h4>First playable build</h4>
+                    <p>A test scene we can send to testers and get real feedback from them.</p>
+                </div>
+            </div>
+            <div class="roadmap-item">
+                <span class="phase">Phase 04</span>
+                <div>
+                    <h4>Announcement &amp; wishlist</h4>
+                    <p>Official title reveal, trailer, and store page.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact" id="contact">
+        <h2>Follow Us</h2>
+        <p>Nothing to sign up for yet — links will go live here once we have channels running.</p>
+
+        <div class="contact-links">
+            <a href="#" class="btn-secondary">Meta Quest (Soon)</a>
+            <a href="https://discord.gg/5ZzcPxfVWf" class="btn-secondary" target="_blank" rel="noopener noreferrer">Discord</a>
+            <a href="https://www.tiktok.com/@fusion.studios.dev" class="btn-secondary" target="_blank" rel="noopener noreferrer">TikTok</a>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 Fusion Studios. All rights reserved.
+    </footer>
+
+</body>
+</html>
